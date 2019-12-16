@@ -1,1 +1,1 @@
-Projeto do curso Iniciando com o ReactJS
+Projeto do curso Iniciando em ReactJS com Bootstrap
