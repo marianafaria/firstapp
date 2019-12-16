@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar'
 import Carousel from './components/CarouselHome'
 import CardsProducts from './components/CardsProducts'
+import CardsDigimon from './components/CardsDigimon'
 import {Container, Row} from 'react-bootstrap'
 
 function App() {
@@ -9,11 +10,14 @@ function App() {
     <>
     <NavBar/>
     <Carousel/>
+    <br/>
     <Container>
-      <Row>
-        <CardsProducts/>
-      </Row>
+      {/*<Row><CardsProducts/></Row>*/}
+      <hr></hr>
+      <Row><CardsDigimon/></Row>
+      <br/>
     </Container>
+    <br/>
     </>
   );
 }
